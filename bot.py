@@ -3,7 +3,7 @@ from telegram.ext import *
 from requests import *
 
 updater = Updater(token="")
-#add your token
+#add your token from Bot father
 dispatcher = updater.dispatcher
 
 randomPictureText = "Random Picture"
