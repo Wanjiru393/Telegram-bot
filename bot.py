@@ -2,7 +2,8 @@ from telegram import *
 from telegram.ext import *
 from requests import *
 
-updater = Updater(token="5813496849:AAHOcg_n2DMoR7JntX6pzDjCO6pNZKb7Arg")
+updater = Updater(token="")
+#add your token from Bot father
 dispatcher = updater.dispatcher
 
 randomPictureText = "Random Picture"
